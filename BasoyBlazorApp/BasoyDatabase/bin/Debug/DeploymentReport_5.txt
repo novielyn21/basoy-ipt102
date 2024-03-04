@@ -1,0 +1,18 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Students] (Table)
+       [dbo].[DisplayStudentList] (Procedure)
+       [dbo].[NewStudent] (Procedure)
+       [dbo].[SearchById] (Procedure)
+
+** Supporting actions

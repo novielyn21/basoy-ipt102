@@ -1,0 +1,142 @@
+﻿@page "/StudentList"
+@inject StudentListDb database
+<PageTitle>Anime List</PageTitle>
+
+<style>
+    svg {
+        height: 15rem;
+        margin-right: 0;
+    }
+
+    form {
+        min-width: auto;
+        font-size: 1.8rem;
+    }
+
+    .form-control {
+        height: 2.8rem;
+        padding: 0.5rem 2rem;
+    }
+
+    .message .form-control {
+        padding: 0.5rem 1.5rem;
+    }
+
+    ::placeholder {
+        font-size: 1rem;
+    }
+
+    .icon {
+        height: 1rem;
+        left: 1rem;
+        top: 0.8rem;
+    }
+
+    .btn.btn-primary {
+        height: 2rem;
+        line-height: 2rem;
+        padding: 0 2rem;
+    }
+
+    .anime-list {
+        margin-top: 2rem;
+    }
+
+    .anime-item {
+        border: 1px solid #ddd;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 0.5rem;
+    }
+</style>
+
+@if (EditButton)
+{
+    <div class="container d-flex align-items-center justify-content-center">
+        <form @onsubmit="Update" class="col-md-6">
+            <h1 class="title text-center mb-4">Update Student</h1>
+            <div>
+                <input type="hidden" @bind="UpdateStudent.StudentId">
+            </div>
+            <div class="form-group position-relative">
+                <label>FirstName</label>
+                <input type="text" class="form-control form-control-lg thick" @bind="UpdateStudent.FirstName">
+            </div>
+
+            <div class="form-group position-relative">
+                <label>LastName</label>
+                <input type="text" class="form-control form-control-lg thick" @bind="UpdateStudent.LastName">
+            </div>
+
+            <div class="form-group position-relative">
+                <label>Email</label>
+                <input type="text" class="form-control form-control-lg thick" @bind="UpdateStudent.Email">
+            </div>
+            <div class="form-group position-relative">
+                <label>Country</label>
+                <input type="text" class="form-control form-control-lg thick" @bind="UpdateStudent.Country">
+            </div>
+
+            <div class="form-group position-relative">
+                <label>Message</label>
+                <textarea placeholder="Optional" @bind="UpdateStudent.SMessage"></textarea>
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary" tabIndex="-1">Update</button>
+            </div>
+        </form>
+
+    </div>
+}
+else
+{
+    @if (studentList != null)
+    {
+        <div class="container anime-list">
+            <h2 class="text-center mb-4">Student List</h2>
+            @foreach (var student in studentList)
+            {
+                <div class="anime-item">
+                    <h3>@student.LastName, @student.FirstName</h3>
+                    <p><strong>Email Address:</strong> @student.Email</p>
+                    <p><strong>Country:</strong> @student.Country</p>
+                    <p><strong>Message:</strong> @student.SMessage</p>
+                </div>
+                <span @onclick="() => Edit(student.StudentId)" role="button">Edit</span>
+                <span @onclick="() => Delete(student.StudentId)" role="button">Delete</span>
+            }
+        </div>
+
+    }
+}
+
+
+@code {
+#nullable disable
+    private IEnumerable<Student> studentList;
+    private bool EditButton = false;
+    private Student UpdateStudent;
+
+    protected override void OnInitialized()
+    {
+        studentList = database.list();
+    }
+    private void Delete(int Id)
+    {
+        database.Delete(Id);
+        studentList = database.list();
+    }
+    private void Edit(int Id)
+    {
+        UpdateStudent = database.SearchById(Id)?.FirstOrDefault() as Student;
+        EditButton = true;
+
+    }
+    private void Update()
+    {
+        database.Update(UpdateStudent);
+        EditButton = false;
+        studentList = database.list();
+    }
+}

@@ -1,0 +1,27 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<div class="personal-info-container">
+    <h2>Personal Information</h2>
+    <div class="d-flex flex-column align-items-center text-center p-3 py-5">
+        <img class="rounded-rectangle profile-picture" src="/css/nov.jpg" alt="Profile Picture">
+    </div>
+    <ul>
+        <li><strong>Full Name:</strong> @FullName</li>
+        <li><strong>Full Hobby:</strong> @Hobby</li>
+        <li><strong>Age:</strong> @Age</li>
+        <li><strong>Email:</strong> <a href="mailto:@Email">@Email</a></li>
+        <li><strong>Address:</strong> @Address</li>
+        <li><strong>Phone Number:</strong> <a href="tel:@PhoneNumber">@PhoneNumber</a></li>
+    </ul>
+</div>
+
+@code {
+    string FullName { get; set; } = "Novielen Basoy";
+    int Age { get; set; } = 20;
+    string Email { get; set; } = "NovBasoy@gmail.com.com";
+    string Address { get; set; } = "Anunang City";
+    string PhoneNumber { get; set; } = "09123456789";
+    string Hobby { get; set; } = "Kain, Gala, Look Handsome boy";
+}

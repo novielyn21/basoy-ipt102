@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Krentz\\Desktop\\BASOYWebAssembly\\BASOYWebAssemblyBasicProject\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Krentz\\Desktop\\BASOYWebAssembly\\BASOYWebAssemblyBasicProject\\obj\\Debug\\net8.0\\compressed\\xtnpgwpkb1.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\Krentz\\Desktop\\BASOYWebAssembly\\BASOYWebAssemblyBasicProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BASOYWebAssemblyBasicProject.styles.css",
+      "PackagePath": "staticwebassets\\BASOYWebAssemblyBasicProject.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Krentz\\Desktop\\BASOYWebAssembly\\BASOYWebAssemblyBasicProject\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Krentz\\Desktop\\BASOYWebAssembly\\BASOYWebAssemblyBasicProject\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Krentz\\Desktop\\BASOYWebAssembly\\BASOYWebAssemblyBasicProject\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Krentz\\Desktop\\BASOYWebAssembly\\BASOYWebAssemblyBasicProject\\wwwroot\\css\\nov.jpg",
+      "PackagePath": "staticwebassets\\css\\nov.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Krentz\\Desktop\\BASOYWebAssembly\\BASOYWebAssemblyBasicProject\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Krentz\\Desktop\\BASOYWebAssembly\\BASOYWebAssemblyBasicProject\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\Krentz\\Desktop\\BASOYWebAssembly\\BASOYWebAssemblyBasicProject\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Krentz\\Desktop\\BASOYWebAssembly\\BASOYWebAssemblyBasicProject\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BASOYWebAssemblyBasicProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BASOYWebAssemblyBasicProject.props",
+      "PackagePath": "build\\BASOYWebAssemblyBasicProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BASOYWebAssemblyBasicProject.props",
+      "PackagePath": "buildMultiTargeting\\BASOYWebAssemblyBasicProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BASOYWebAssemblyBasicProject.props",
+      "PackagePath": "buildTransitive\\BASOYWebAssemblyBasicProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

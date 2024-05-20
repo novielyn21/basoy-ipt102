@@ -1,0 +1,10 @@
+S:\IPT102\Cardoza\BasoyIPT102FinalProject\BasoyFinalDb\bin\Debug\BasoyFinalDb.dacpac
+S:\IPT102\Cardoza\BasoyIPT102FinalProject\BasoyFinalDb\bin\Debug\BasoyFinalDb.dll
+S:\IPT102\Cardoza\BasoyIPT102FinalProject\BasoyFinalDb\bin\Debug\BasoyFinalDb.pdb
+S:\IPT102\Cardoza\BasoyIPT102FinalProject\BasoyFinalDb\obj\Debug\BasoyFinalDb.sqlproj.AssemblyReference.cache
+S:\IPT102\Cardoza\BasoyIPT102FinalProject\BasoyFinalDb\obj\Debug\Model.xml
+S:\IPT102\Cardoza\BasoyIPT102FinalProject\BasoyFinalDb\obj\Debug\refactor.xml
+S:\IPT102\Cardoza\BasoyIPT102FinalProject\BasoyFinalDb\obj\Debug\postdeploy.sql
+S:\IPT102\Cardoza\BasoyIPT102FinalProject\BasoyFinalDb\obj\Debug\predeploy.sql
+S:\IPT102\Cardoza\BasoyIPT102FinalProject\BasoyFinalDb\obj\Debug\BasoyFinalDb.dll
+S:\IPT102\Cardoza\BasoyIPT102FinalProject\BasoyFinalDb\obj\Debug\BasoyFinalDb.pdb

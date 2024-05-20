@@ -1,0 +1,13 @@
+﻿CREATE TABLE [dbo].[Persons]
+(
+	 PersonID INT PRIMARY KEY IDENTITY(1,1), 
+    FirstName NVARCHAR(50) NOT NULL,
+    LastName NVARCHAR(50) NOT NULL,
+    DateOfBirth DATE NOT NULL,
+    Gender NVARCHAR(10) NOT NULL,
+    Address NVARCHAR(255) NOT NULL,
+    PhoneNumber NVARCHAR(15) NOT NULL,
+    Email NVARCHAR(100) NOT NULL,
+    Education NVARCHAR(255) NOT NULL,
+    Skills NVARCHAR(255) NOT NULL
+)

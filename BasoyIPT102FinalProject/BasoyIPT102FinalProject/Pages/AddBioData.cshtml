@@ -1,0 +1,209 @@
+﻿@page
+@model BasoyIPT102FinalProject.Pages.AddBioDataModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Bio Data</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #555;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .btn {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .btn-edit, .btn-update, .btn-display {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .btn-delete {
+            background-color: #f44336;
+            color: white;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        /* Add spacing */
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .btn-group {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        @if (Model.IsEditing)
+            {
+        <div>
+            <h1>Update Bio Data</h1>
+
+            <form method="post">
+                <input asp-for="persons.PersonId" hidden />>
+                <label for="firstName">First Name:</label>
+                <input asp-for="persons.FirstName" type="text" id="firstName" name="persons.FirstName" required>
+
+                <label for="lastName">Last Name:</label>
+                <input asp-for="persons.LastName" type="text" id="lastName" name="persons.LastName" required>
+
+                <label for="dateOfBirth">Date of Birth:</label>
+                <input asp-for="persons.DateOfBirth" type="date" id="dateOfBirth" name="persons.DateOfBirth" required>
+
+                <label for="gender">Gender:</label>
+                <select asp-for="persons.Gender" id="gender" name="persons.Gender" required>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <label for="address">Address:</label>
+                <input asp-for="persons.Address" type="text" id="address" name="persons.Address" required>
+
+                <label for="phoneNumber">Phone Number:</label>
+                <input asp-for="persons.PhoneNumber" type="text" id="phoneNumber" name="persons.PhoneNumber" required>
+
+                <label for="email">Email:</label>
+                <input asp-for="persons.Email" type="text" id="email" name="persons.Email" required>
+
+                <label for="education">Education:</label>
+                <input asp-for="persons.Education" type="text" id="education" name="persons.Education" required>
+
+                <label for="skills">Skills:</label>
+                <input asp-for="persons.Skills" type="text" id="skills" name="persons.Skills" required>
+
+                <button asp-page-handler="UpdatePerson" class="btn btn-primary">Update</button>
+                <button asp-page-handler="CancelUpdate" class="btn btn-secondary">Cancel</button>
+            </form>
+        </div>
+         }
+            else
+            {
+       <div>
+            <h1>Add Bio Data</h1>
+
+            <form method="post">
+                <input asp-for="persons.PersonId" hidden />>
+                <label for="firstName">First Name:</label>
+                <input asp-for="persons.FirstName" type="text" id="firstName" name="persons.FirstName" required>
+
+                <label for="lastName">Last Name:</label>
+                <input asp-for="persons.LastName" type="text" id="lastName" name="persons.LastName" required>
+
+                <label for="dateOfBirth">Date of Birth:</label>
+                <input asp-for="persons.DateOfBirth" type="date" id="dateOfBirth" name="persons.DateOfBirth" required>
+
+                <label for="gender">Gender:</label>
+                <select asp-for="persons.Gender" id="gender" name="persons.Gender" required>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <label for="address">Address:</label>
+                <input asp-for="persons.Address" type="text" id="address" name="persons.Address" required>
+
+                <label for="phoneNumber">Phone Number:</label>
+                <input asp-for="persons.PhoneNumber" type="text" id="phoneNumber" name="persons.PhoneNumber" required>
+
+                <label for="email">Email:</label>
+                <input asp-for="persons.Email" type="text" id="email" name="persons.Email" required>
+
+                <label for="education">Education:</label>
+                <input asp-for="persons.Education" type="text" id="education" name="persons.Education" required>
+
+                <label for="skills">Skills:</label>
+                <input asp-for="persons.Skills" type="text" id="skills" name="persons.Skills" required>
+
+                    <button asp-page-handler="AddPerson" class="btn btn-primary">Add Person</button>
+            </form>
+       </div>
+        }
+    </div>
+
+    <div id="displaySection">
+        <h2>All Persons</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Date of Birth</th>
+                    <th>Gender</th>
+                    <th>Address</th>
+                    <th>Phone Number</th>
+                    <th>Email</th>
+                    <th>Education</th>
+                    <th>Skills</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var person in Model.AllPersons)
+                {
+                    <tr>
+                        <td>@person.FirstName</td>
+                        <td>@person.LastName</td>
+                        <td>@(person.DateOfBirth != null ? person.DateOfBirth.Value.ToShortDateString() : "N/A")</td>
+                        <td>@person.Gender</td>
+                        <td>@person.Address</td>
+                        <td>@person.PhoneNumber</td>
+                        <td>@person.Email</td>
+                        <td>@person.Education</td>
+                        <td>@person.Skills</td>
+                        <td>
+                            <a asp-page-handler="FindPersonById" asp-route-personId="@person.PersonId" class="btn btn-edit">Edit</a>
+                            <a asp-page-handler="DeletePerson" asp-route-personId="@person.PersonId" class="btn btn-delete">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

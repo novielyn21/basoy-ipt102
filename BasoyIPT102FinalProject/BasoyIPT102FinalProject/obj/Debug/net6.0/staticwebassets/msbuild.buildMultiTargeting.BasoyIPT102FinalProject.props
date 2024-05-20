@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BasoyIPT102FinalProject.props" />
+</Project>

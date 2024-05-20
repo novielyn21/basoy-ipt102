@@ -1,0 +1,130 @@
+﻿@page
+@model IndexModel
+@{
+    Layout = "LoginLayout";
+    ViewData["Title"] = "Home page";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Sign Up Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(45deg, #6a11cb, #2575fc);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            width: 350px;
+            max-width: 100%;
+        }
+
+        .form-container {
+            padding: 40px;
+            backdrop-filter: blur(10px);
+        }
+
+        .form-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-container form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-container form input {
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.7);
+            color: #333;
+        }
+
+        .form-container form button {
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background: #2575fc;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .form-container form button:hover {
+            background: #1e60d4;
+        }
+
+        .toggle-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .toggle-container a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .toggle-container a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container" id="login-form">
+            <h2>Login</h2>
+            <form method="post">
+                <input asp-for="acc.username" type="text" placeholder="UserName" required>
+                <input asp-for="acc.password" type="password" placeholder="Password" required>
+                <button asp-page-handler="Login" type="submit">Login</button>
+            </form>
+            <div class="toggle-container">
+                <p>Don't have an account? <a href="#" onclick="toggleForm('sign-up')">Sign Up</a></p>
+            </div>
+        </div>
+
+        <div class="form-container" id="sign-up-form" style="display: none;">
+            <h2>Sign Up</h2>
+            <form method="post">
+                <input asp-for="acc.username" type="text" placeholder="Username" required>
+                <input type="email" placeholder="Email" required>
+                <input asp-for="acc.password" type="password" placeholder="Password" required>
+                <button asp-page-handler="Create" type="submit">Sign Up</button>
+            </form>
+            <div class="toggle-container">
+                <p>Already have an account? <a href="#" onclick="toggleForm('login')">Login</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleForm(form) {
+            const loginForm = document.getElementById('login-form');
+            const signUpForm = document.getElementById('sign-up-form');
+            if (form === 'sign-up') {
+                loginForm.style.display = 'none';
+                signUpForm.style.display = 'block';
+            } else {
+                loginForm.style.display = 'block';
+                signUpForm.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>

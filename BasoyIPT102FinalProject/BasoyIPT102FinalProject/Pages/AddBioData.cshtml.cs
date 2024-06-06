@@ -105,5 +105,20 @@ namespace BasoyIPT102FinalProject.Pages
             IsEditing = false;
             return Page();
         }
+        public IActionResult OnPostSearchSirRoche()
+        {
+            if (!string.IsNullOrEmpty(persons.FirstName))
+            {
+                var sqlStr = "[dbo].[SearchByName]";
+                var param = new { CustomerName = persons.FirstName };
+                AllPersons = connection.Query<Persons>(sqlStr, param).ToList();
+                return Page();
+            }
+            else
+            {
+                return RedirectToPage();
+            }
+        }
+        }
     }
-}
+

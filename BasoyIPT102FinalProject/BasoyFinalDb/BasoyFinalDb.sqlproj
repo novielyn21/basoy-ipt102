@@ -69,5 +69,6 @@
     <Build Include="Stored Procedure\DeletePerson.sql" />
     <Build Include="Stored Procedure\FindPersonById.sql" />
     <Build Include="Stored Procedure\DisplayAllPersons.sql" />
+    <Build Include="Stored Procedure\SearchByName.sql" />
   </ItemGroup>
 </Project>

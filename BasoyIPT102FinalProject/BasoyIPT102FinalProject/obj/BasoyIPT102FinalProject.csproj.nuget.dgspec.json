@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "S:\\IPT102\\Cardoza\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj": {}
+    "C:\\Users\\Krentz\\Desktop\\git\\basoy-ipt102\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj": {}
   },
   "projects": {
-    "S:\\IPT102\\Cardoza\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj": {
+    "C:\\Users\\Krentz\\Desktop\\git\\basoy-ipt102\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\IPT102\\Cardoza\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj",
+        "projectUniqueName": "C:\\Users\\Krentz\\Desktop\\git\\basoy-ipt102\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj",
         "projectName": "BasoyIPT102FinalProject",
-        "projectPath": "S:\\IPT102\\Cardoza\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "S:\\IPT102\\Cardoza\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\obj\\",
+        "projectPath": "C:\\Users\\Krentz\\Desktop\\git\\basoy-ipt102\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj",
+        "packagesPath": "C:\\Users\\Krentz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Krentz\\Desktop\\git\\basoy-ipt102\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "S:\\visual studio shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Krentz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

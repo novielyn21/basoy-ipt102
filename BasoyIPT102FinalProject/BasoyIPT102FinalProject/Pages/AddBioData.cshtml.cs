@@ -105,7 +105,7 @@ namespace BasoyIPT102FinalProject.Pages
             IsEditing = false;
             return Page();
         }
-        public IActionResult OnPostSearchSirRoche()
+        public IActionResult OnPostSearchPeople()
         {
             if (!string.IsNullOrEmpty(persons.FirstName))
             {

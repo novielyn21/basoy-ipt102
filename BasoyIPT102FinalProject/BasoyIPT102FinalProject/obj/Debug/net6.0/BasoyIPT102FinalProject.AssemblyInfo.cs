@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BasoyIPT102FinalProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41fa9969bf91d939eb27380097bdc282e0c8c36b")]
 [assembly: System.Reflection.AssemblyProductAttribute("BasoyIPT102FinalProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BasoyIPT102FinalProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

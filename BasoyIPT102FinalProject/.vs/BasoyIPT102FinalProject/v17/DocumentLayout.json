@@ -1,45 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "S:\\IPT102\\Cardoza\\BasoyIPT102FinalProject\\",
+  "WorkspaceRootPath": "C:\\Users\\Krentz\\Desktop\\git\\basoy-ipt102\\BasoyIPT102FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C40339E-DE8E-4E86-A73B-FC3F0F2FA7DE}|BasoyFinalDb\\BasoyFinalDb.sqlproj|S:\\IPT102\\Cardoza\\BasoyIPT102FinalProject\\BasoyFinalDb\\Stored Procedure\\SearchByName.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{9C40339E-DE8E-4E86-A73B-FC3F0F2FA7DE}|BasoyFinalDb\\BasoyFinalDb.sqlproj|solutionrelative:BasoyFinalDb\\Stored Procedure\\SearchByName.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{413CA88B-78AF-4419-AC20-47958E06CCCE}|BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj|s:\\ipt102\\cardoza\\basoyipt102finalproject\\basoyipt102finalproject\\pages\\addbiodata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{413CA88B-78AF-4419-AC20-47958E06CCCE}|BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj|solutionrelative:basoyipt102finalproject\\pages\\addbiodata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{413CA88B-78AF-4419-AC20-47958E06CCCE}|BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj|s:\\ipt102\\cardoza\\basoyipt102finalproject\\basoyipt102finalproject\\pages\\addbiodata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{413CA88B-78AF-4419-AC20-47958E06CCCE}|BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj|c:\\users\\krentz\\desktop\\git\\basoy-ipt102\\basoyipt102finalproject\\basoyipt102finalproject\\pages\\addbiodata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{413CA88B-78AF-4419-AC20-47958E06CCCE}|BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj|solutionrelative:basoyipt102finalproject\\pages\\addbiodata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{413CA88B-78AF-4419-AC20-47958E06CCCE}|BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj|s:\\ipt102\\cardoza\\basoyipt102finalproject\\basoyipt102finalproject\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{413CA88B-78AF-4419-AC20-47958E06CCCE}|BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj|c:\\users\\krentz\\desktop\\git\\basoy-ipt102\\basoyipt102finalproject\\basoyipt102finalproject\\pages\\addbiodata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413CA88B-78AF-4419-AC20-47958E06CCCE}|BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj|solutionrelative:basoyipt102finalproject\\pages\\addbiodata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413CA88B-78AF-4419-AC20-47958E06CCCE}|BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj|c:\\users\\krentz\\desktop\\git\\basoy-ipt102\\basoyipt102finalproject\\basoyipt102finalproject\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{413CA88B-78AF-4419-AC20-47958E06CCCE}|BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj|solutionrelative:basoyipt102finalproject\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{413CA88B-78AF-4419-AC20-47958E06CCCE}|BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj|s:\\ipt102\\cardoza\\basoyipt102finalproject\\basoyipt102finalproject\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9C40339E-DE8E-4E86-A73B-FC3F0F2FA7DE}|BasoyFinalDb\\BasoyFinalDb.sqlproj|C:\\Users\\Krentz\\Desktop\\git\\basoy-ipt102\\BasoyIPT102FinalProject\\BasoyFinalDb\\Stored Procedure\\SearchByName.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{9C40339E-DE8E-4E86-A73B-FC3F0F2FA7DE}|BasoyFinalDb\\BasoyFinalDb.sqlproj|solutionrelative:BasoyFinalDb\\Stored Procedure\\SearchByName.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413CA88B-78AF-4419-AC20-47958E06CCCE}|BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj|c:\\users\\krentz\\desktop\\git\\basoy-ipt102\\basoyipt102finalproject\\basoyipt102finalproject\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{413CA88B-78AF-4419-AC20-47958E06CCCE}|BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj|solutionrelative:basoyipt102finalproject\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{413CA88B-78AF-4419-AC20-47958E06CCCE}|BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj|s:\\ipt102\\cardoza\\basoyipt102finalproject\\basoyipt102finalproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{413CA88B-78AF-4419-AC20-47958E06CCCE}|BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj|c:\\users\\krentz\\desktop\\git\\basoy-ipt102\\basoyipt102finalproject\\basoyipt102finalproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{413CA88B-78AF-4419-AC20-47958E06CCCE}|BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj|solutionrelative:basoyipt102finalproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{413CA88B-78AF-4419-AC20-47958E06CCCE}|BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj|s:\\ipt102\\cardoza\\basoyipt102finalproject\\basoyipt102finalproject\\pages\\shared\\loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{413CA88B-78AF-4419-AC20-47958E06CCCE}|BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj|c:\\users\\krentz\\desktop\\git\\basoy-ipt102\\basoyipt102finalproject\\basoyipt102finalproject\\pages\\shared\\loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{413CA88B-78AF-4419-AC20-47958E06CCCE}|BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj|solutionrelative:basoyipt102finalproject\\pages\\shared\\loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{413CA88B-78AF-4419-AC20-47958E06CCCE}|BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj|s:\\ipt102\\cardoza\\basoyipt102finalproject\\basoyipt102finalproject\\classes\\persons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{413CA88B-78AF-4419-AC20-47958E06CCCE}|BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj|c:\\users\\krentz\\desktop\\git\\basoy-ipt102\\basoyipt102finalproject\\basoyipt102finalproject\\classes\\persons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{413CA88B-78AF-4419-AC20-47958E06CCCE}|BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj|solutionrelative:basoyipt102finalproject\\classes\\persons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{413CA88B-78AF-4419-AC20-47958E06CCCE}|BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj|s:\\ipt102\\cardoza\\basoyipt102finalproject\\basoyipt102finalproject\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{413CA88B-78AF-4419-AC20-47958E06CCCE}|BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj|c:\\users\\krentz\\desktop\\git\\basoy-ipt102\\basoyipt102finalproject\\basoyipt102finalproject\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{413CA88B-78AF-4419-AC20-47958E06CCCE}|BasoyIPT102FinalProject\\BasoyIPT102FinalProject.csproj|solutionrelative:basoyipt102finalproject\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C40339E-DE8E-4E86-A73B-FC3F0F2FA7DE}|BasoyFinalDb\\BasoyFinalDb.sqlproj|S:\\IPT102\\Cardoza\\BasoyIPT102FinalProject\\BasoyFinalDb\\Stored Procedure\\SearchByName.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "AbsoluteMoniker": "D:0:0:{9C40339E-DE8E-4E86-A73B-FC3F0F2FA7DE}|BasoyFinalDb\\BasoyFinalDb.sqlproj|C:\\Users\\Krentz\\Desktop\\git\\basoy-ipt102\\BasoyIPT102FinalProject\\BasoyFinalDb\\Stored Procedure\\SearchByName.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
       "RelativeMoniker": "D:0:0:{9C40339E-DE8E-4E86-A73B-FC3F0F2FA7DE}|BasoyFinalDb\\BasoyFinalDb.sqlproj|solutionrelative:BasoyFinalDb\\Stored Procedure\\SearchByName.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
@@ -50,15 +50,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "SearchByName.sql ",
-              "DocumentMoniker": "S:\\IPT102\\Cardoza\\BasoyIPT102FinalProject\\BasoyFinalDb\\Stored Procedure\\SearchByName.sql",
+              "DocumentMoniker": "C:\\Users\\Krentz\\Desktop\\git\\basoy-ipt102\\BasoyIPT102FinalProject\\BasoyFinalDb\\Stored Procedure\\SearchByName.sql",
               "RelativeDocumentMoniker": "BasoyFinalDb\\Stored Procedure\\SearchByName.sql",
-              "ToolTip": "S:\\IPT102\\Cardoza\\BasoyIPT102FinalProject\\BasoyFinalDb\\Stored Procedure\\SearchByName.sql\r\n(localdb)\\ProjectModels.BasoyFinalDb\r\n(DESKTOP-CUHDLQM\\User)",
+              "ToolTip": "C:\\Users\\Krentz\\Desktop\\git\\basoy-ipt102\\BasoyIPT102FinalProject\\BasoyFinalDb\\Stored Procedure\\SearchByName.sql\r\n(localdb)\\ProjectModels.BasoyFinalDb\r\n(GORDONKRENTZ\\Krentz)",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-06-06T04:09:46.856Z",
               "EditorCaption": ""
@@ -67,22 +67,21 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "appsettings.json",
-              "DocumentMoniker": "S:\\IPT102\\Cardoza\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Krentz\\Desktop\\git\\basoy-ipt102\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\appsettings.json",
               "RelativeDocumentMoniker": "BasoyIPT102FinalProject\\appsettings.json",
-              "ToolTip": "S:\\IPT102\\Cardoza\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\Krentz\\Desktop\\git\\basoy-ipt102\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\appsettings.json",
               "RelativeToolTip": "BasoyIPT102FinalProject\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-19T09:18:26.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T09:18:26.944Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "S:\\IPT102\\Cardoza\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Pages\\Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Krentz\\Desktop\\git\\basoy-ipt102\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "BasoyIPT102FinalProject\\Pages\\Index.cshtml.cs",
-              "ToolTip": "S:\\IPT102\\Cardoza\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Krentz\\Desktop\\git\\basoy-ipt102\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Pages\\Index.cshtml.cs",
               "RelativeToolTip": "BasoyIPT102FinalProject\\Pages\\Index.cshtml.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAcwBEAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -91,13 +90,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AddBioData.cshtml",
-              "DocumentMoniker": "S:\\IPT102\\Cardoza\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Pages\\AddBioData.cshtml",
+              "DocumentMoniker": "C:\\Users\\Krentz\\Desktop\\git\\basoy-ipt102\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Pages\\AddBioData.cshtml",
               "RelativeDocumentMoniker": "BasoyIPT102FinalProject\\Pages\\AddBioData.cshtml",
-              "ToolTip": "S:\\IPT102\\Cardoza\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Pages\\AddBioData.cshtml",
+              "ToolTip": "C:\\Users\\Krentz\\Desktop\\git\\basoy-ipt102\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Pages\\AddBioData.cshtml",
               "RelativeToolTip": "BasoyIPT102FinalProject\\Pages\\AddBioData.cshtml",
-              "ViewState": "AQIAAJYAAAAAAAAAAAAAAKgAAAApAAAA",
+              "ViewState": "AQIAAJYAAAAAAAAAAAAAAKgAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-17T19:28:11.257Z",
               "EditorCaption": ""
@@ -106,24 +105,23 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Persons.cs",
-              "DocumentMoniker": "S:\\IPT102\\Cardoza\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Classes\\Persons.cs",
+              "DocumentMoniker": "C:\\Users\\Krentz\\Desktop\\git\\basoy-ipt102\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Classes\\Persons.cs",
               "RelativeDocumentMoniker": "BasoyIPT102FinalProject\\Classes\\Persons.cs",
-              "ToolTip": "S:\\IPT102\\Cardoza\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Classes\\Persons.cs",
+              "ToolTip": "C:\\Users\\Krentz\\Desktop\\git\\basoy-ipt102\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Classes\\Persons.cs",
               "RelativeToolTip": "BasoyIPT102FinalProject\\Classes\\Persons.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvxAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T19:27:30.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T19:27:30.651Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "AddBioData.cshtml.cs",
-              "DocumentMoniker": "S:\\IPT102\\Cardoza\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Pages\\AddBioData.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Krentz\\Desktop\\git\\basoy-ipt102\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Pages\\AddBioData.cshtml.cs",
               "RelativeDocumentMoniker": "BasoyIPT102FinalProject\\Pages\\AddBioData.cshtml.cs",
-              "ToolTip": "S:\\IPT102\\Cardoza\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Pages\\AddBioData.cshtml.cs",
+              "ToolTip": "C:\\Users\\Krentz\\Desktop\\git\\basoy-ipt102\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Pages\\AddBioData.cshtml.cs",
               "RelativeToolTip": "BasoyIPT102FinalProject\\Pages\\AddBioData.cshtml.cs",
-              "ViewState": "AQIAAFMAAAAAAAAAAAAAwHsAAAAAAAAA",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAGsAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T19:26:28.787Z",
               "EditorCaption": ""
@@ -132,40 +130,37 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "S:\\IPT102\\Cardoza\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Pages\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Krentz\\Desktop\\git\\basoy-ipt102\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "BasoyIPT102FinalProject\\Pages\\Index.cshtml",
-              "ToolTip": "S:\\IPT102\\Cardoza\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Krentz\\Desktop\\git\\basoy-ipt102\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Pages\\Index.cshtml",
               "RelativeToolTip": "BasoyIPT102FinalProject\\Pages\\Index.cshtml",
               "ViewState": "AQIAAFEAAAAAAAAAAAAQwIIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-17T17:43:02.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T17:43:02.398Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "S:\\IPT102\\Cardoza\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Pages\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Krentz\\Desktop\\git\\basoy-ipt102\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "BasoyIPT102FinalProject\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "S:\\IPT102\\Cardoza\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Krentz\\Desktop\\git\\basoy-ipt102\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "BasoyIPT102FinalProject\\Pages\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAACQAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-17T19:31:26.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T19:31:26.415Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "LoginLayout.cshtml",
-              "DocumentMoniker": "S:\\IPT102\\Cardoza\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Pages\\Shared\\LoginLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Krentz\\Desktop\\git\\basoy-ipt102\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Pages\\Shared\\LoginLayout.cshtml",
               "RelativeDocumentMoniker": "BasoyIPT102FinalProject\\Pages\\Shared\\LoginLayout.cshtml",
-              "ToolTip": "S:\\IPT102\\Cardoza\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Pages\\Shared\\LoginLayout.cshtml",
+              "ToolTip": "C:\\Users\\Krentz\\Desktop\\git\\basoy-ipt102\\BasoyIPT102FinalProject\\BasoyIPT102FinalProject\\Pages\\Shared\\LoginLayout.cshtml",
               "RelativeToolTip": "BasoyIPT102FinalProject\\Pages\\Shared\\LoginLayout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-17T17:48:08.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T17:48:08.285Z"
             }
           ]
         }
